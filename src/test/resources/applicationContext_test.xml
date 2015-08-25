@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- 
+		1、spring环境的搭建：
+			1.1、添加spring所需的jar包
+			1.2、用spring创建date对象，用测试用例测试，如果成功，说明spring环境OK
+	 -->
+	<!-- 此对象的创建时为了测试spring的哈unjing是否搭建成功，如果测试该对象成功创建，说明spring环境OK -->
+	<bean id="date" class="java.util.Date"></bean>
+	
+
+
+</beans>
