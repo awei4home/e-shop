@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	用action的约定优于配置跳转到本页面成功。。。。。。。。。。。。
+	${message}
 </body>
 </html>
