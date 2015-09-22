@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	${message}
+	hello.jsp测试分包成功了么？？？ ------>>>> ${msg}
 </body>
 </html>

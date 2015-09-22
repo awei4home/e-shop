@@ -18,10 +18,15 @@
 <struts>
 	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
 	<constant name="struts.devMode" value="false" />
-	<!-- convention搜索action的位置配置，路径为下面的“/”，写代码时约定优于配置 -->
-	<constant name="struts.convention.action.packages" value="com.awei.eshop.web.action" />
-	<!-- convention搜索视图的位置配置,路径为下面的“/”，写代码时约定优于配置 -->
-	<constant name="struts.convention.result.path" value="/WEB-INF/views/" />
+	
+	<!-- <constant name="struts.convention.action.packages" 
+		value="com.awei.eshop.modules.user.web.action,
+			com.awei.eshop.modules.hello.web.action,
+			com.awei.eshop.modules.tests.web.action" /> --> 
+			
+	<constant name="struts.convention.package.locators" value="action" />
+	<constant name="struts.convention.result.path" value="/WEB-INF/views/modules/" />
+	
 	
 	<package name="ssh2-default" extends="convention-default,json-default"
 		namespace="/">
